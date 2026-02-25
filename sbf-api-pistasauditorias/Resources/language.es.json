@@ -1,0 +1,18 @@
+{
+  "SuccessMessage": "Operación exitosa.",
+  "ApplicationProductsFailure": "No se encontraron productos para la solicitud dada.",
+  "ApplicationProductsStatuFailure": "Error al actualizar el estado del producto.\n",
+  "ApplicationControlNumbersFailure": "No se encontraron registros con los parámetros proporcionados.",
+  "ApplicationPermissionDenied": "Permiso denegado para realizar esta operación.",
+  "ApplicationSystemAuditSuccess": "Se insertó la auditoría del sistema correctamente.",
+  "ApplicationSystemAuditFailure": "No se pudo insertar la auditoría del sistema.",
+  "ApplicationGetActionsCatalogFailure": "No se pudo obtener el catálogo de acciones.",
+  "ApplicationUpdatedAuditFailurelessZero": "El valor del Id debe de ser mayor a 0.",
+  "ApplicationUpdateSystemAuditSuccess": "Se actualizó la auditoría del sistema correctamente.",
+  "ApplicationUpdateSystemAuditFailure": "No se pudo actualizar la auditoría del sistema.",
+  "ApplicationSetFinishedAuditSuccess": "La pista de auditoría se ha finalizado correctamente.",
+  "ApplicationSetFinishedAuditFailure": "No se pudo finalizar la pista de auditoría.",
+  "ApplicationSetFinishedAuditFailureDetails": "{0} - SetFinishedAuditAsync failed",
+  "AuditSystemIdMustBeGreaterThanZero": "AuditSystemId debe ser mayor que 0.",
+  "ApplicationGetStagesCatalogFailure": "No existen etapas con los parámetros proporcionados."
+}

@@ -1,0 +1,8 @@
+{
+    "SuccessMessage":"Operation successful.",
+    "ApplicationProductsFailure":"No products found for the given request.",
+    "ApplicationProductsStatuFailure":"Failed to update product status.\n",
+    "ApplicationControlNumbersFailure":"No records found with the provided parameters.",
+    "ApplicationDatabricksDownloadFileFromDbfsAsyncFailure": "Error al descargar el archivo desde DBFS.",
+    "ApplicationInsumoPermissionDenied": "You do not have permission to access the inputs."
+}

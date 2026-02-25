@@ -1,0 +1,9 @@
+{
+   "ApplicationParametersRequestNull": "The request object is null.",
+   "ApplicationParametersExecutionIdInvalid": "Execution ID must be greater than zero.",
+   "ApplicationParametersEmpty": "Parameters cannot be null or empty.",
+   "ApplicationParametersSetFailed": "Failed to set parameters.",
+   "ApplicationParametersDbError": "Error accessing the database to set parameters.",
+   "ApplicationParameterSuccessExecutionId": "Parameters successfully obtained for execution with ID",
+   "ApplicationParametersAllActiveParameters": "Active parameters successfully retrieved."
+}

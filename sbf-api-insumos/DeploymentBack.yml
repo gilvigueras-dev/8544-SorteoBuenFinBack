@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "sbf-api-insumos"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "sbf-api-insumos"
+  securityContext:
+    runAsUser: 1000
+    runAsGroup: 3000
+  template:
+    metadata:
+      labels:
+        app: "sbf-api-insumos"
+    spec:
+      automountServiceAccountToken: false
+      containers:
+          securityContext:
+            allowPrivilegeEscalation: false
+            seccompProfile:
+              type: "RuntimeDefault"
+          image: "{#CONTAINER-REGISTRY-URL#}/{#projectNameLowerCase#}:{#tag#}"
+          resources:
+            limits:
+                memory: 100Mi
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: sbf-restapi-insumos-secret  # Corregido: era "sorteobf-api-back-secret"
+      imagePullSecrets:
+        - name: myregistrysorteobfkey

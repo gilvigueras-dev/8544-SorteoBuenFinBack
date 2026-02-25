@@ -1,0 +1,18 @@
+{
+  "SuccessMessage": "Operation successful.",
+  "ApplicationProductsFailure": "No products found for the given request.",
+  "ApplicationProductsStatuFailure": "Failed to update product status.\n",
+  "ApplicationControlNumbersFailure": "No records found with the provided parameters.",
+  "ApplicationProductsPermissionDenied": "You do not have permission to perform this operation.",
+  "ApplicationSystemAuditSuccess": "System audit successfully inserted.",
+  "ApplicationSystemAuditFailure": "Failed to insert system audit.",
+  "ApplicationGetActionsCatalogFailure": "Failed to retrieve actions catalog.",
+  "ApplicationSetFinishedAuditSuccess": "Audit trail has been successfully finalized.",
+  "ApplicationSetFinishedAuditFailure": "Failed to finalize audit trail.",
+  "ApplicationSetFinishedAuditFailureDetails": "{0} - SetFinishedAuditAsync failed",
+  "AuditSystemIdMustBeGreaterThanZero": "AuditSystemId must be greater than 0.",
+  "ApplicationUpdatedAuditFailurelessZero": "The value of the Id must be greater than 0.",
+  "ApplicationUpdateSystemAuditSuccess": "The system audit was successfully updated.",
+  "ApplicationUpdateSystemAuditFailure": "The system audit could not be updated.",
+  "ApplicationGetStagesCatalogFailure": "No stages found with the provided parameters."
+}

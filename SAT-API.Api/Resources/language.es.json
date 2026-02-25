@@ -1,0 +1,13 @@
+{
+  "SuccessMessage": "Operación exitosa.",
+  "ApplicationProductsFailure": "No se encontraron productos para la solicitud dada.",
+  "ApplicationProductsStatuFailure": "Error al actualizar el estado del producto.\n",
+  "ApplicationControlNumbersFailure": "No se encontraron registros con los parámetros proporcionados.",
+  "ApplicationParametersRequestNull": "El objeto de solicitud es nulo.",
+  "ApplicationParametersExecutionIdInvalid": "El ID de ejecución debe ser mayor que cero.",
+  "ApplicationParametersEmpty": "Los parámetros no pueden ser nulos o vacíos.",
+  "ApplicationParametersSetFailed": "No se pudieron establecer los parámetros.",
+  "ApplicationParametersDbError": "Error al acceder a la base de datos para establecer los parámetros.",
+  "ApplciationParameterSuccessEjecutionId": "Parámetros obtenidos correctamente para la ejecución con ID",
+  "ApplicationParametersallActiveParameters": "Parámetros activos obtenidos correctamente."
+}

@@ -1,0 +1,125 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SAT.Ejecuciones.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ejecuciones.Api/bin/Debug/net8.0/Ejecuciones.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Ejecuciones.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:5128;https://localhost:7227"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        },
+         {
+            "name": "SAT.Insumos.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Insumos.Api/bin/Debug/net8.0/Insumos.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Insumos.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "https://localhost:7285;http://localhost:5223"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        },
+        {
+            "name": "SAT.Productos.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Productos.Api/bin/Debug/net8.0/Productos.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Productos.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:5092"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        },
+        {
+            "name": "SAT.TrackEjecuciones.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/TrackEjecucion.Api/bin/Debug/net8.0/TrackEjecucion.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TrackEjecucion.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:5009"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        },
+        {
+            "name": "SAT.Parametros.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Parameters.Api/bin/Debug/net8.0/Parameters.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Parameters.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                 "ASPNETCORE_URLS": "http://localhost:5106"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        },
+         {
+            "name": "SAT.PistaAuditoria.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/PistaAuditoria.Api/bin/Debug/net8.0/PistaAuditoria.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/PistaAuditoria.Api",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                 "ASPNETCORE_URLS": "http://localhost:5286"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger/index.html"
+            },
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch All SAT APIs",
+            "configurations": ["SAT.Ejecuciones.Api","SAT.Insumos.Api", "SAT.Productos.Api", "SAT.TrackEjecuciones.Api", "SAT.Parametros.Api", "SAT.PistaAuditoria.Api"],
+        }
+    ]
+}

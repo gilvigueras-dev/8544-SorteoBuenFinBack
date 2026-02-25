@@ -1,0 +1,7 @@
+{
+    "SuccessMessage":"Operation successful.",
+    "ApplicationProductsFailure":"No products found for the given request.",
+    "ApplicationProductsStatuFailure":"Failed to update product status.\n",
+    "ApplicationControlNumbersFailure":"No records found with the provided parameters.",
+    "ApplicationPermissionDenied": "You do not have permission to perform this operation."
+}

@@ -1,0 +1,7 @@
+{
+  "SuccessMessage": "Operación exitosa.",
+  "ApplicationProductsFailure": "No se encontraron productos para la solicitud dada.",
+  "ApplicationProductsStatuFailure": "Error al actualizar el estado del producto.\n",
+  "ApplicationControlNumbersFailure": "No se encontraron registros con los parámetros proporcionados.",
+  "ApplicationPermissionDenied": "No tiene permiso para realizar esta operación."
+}

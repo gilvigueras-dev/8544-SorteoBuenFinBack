@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55626/",
+      "sslPort": 44323
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5083",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CMN-SBF-DB-HOST": "postgresqlserveralex.postgres.database.azure.com",
+        "CMN-SBF-DB-PORT": "5432",
+        "CMN-SBF-DB-DBNAME": "SAT-BF-Sorteo",
+        "CMN-SBF-DB-USER": "sqladmin",
+        "CMN-SBF-DB-PASSWORD": "REPLACE_WITH_YOUR_PASSWORD",
+        "CMN-SBF-DATABRICKS-CONNECTION-URL": "https://adb-8258359398592986.6.azuredatabricks.net/?o=8258359398592986",
+        "CMN-SBF-DATABRICKS-CONNECTION-TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      },
+      "dotnetRunMessages": true
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7159;http://localhost:5083",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CMN-SBF-DB-HOST": "postgresqlserveralex.postgres.database.azure.com",
+        "CMN-SBF-DB-PORT": "5432",
+        "CMN-SBF-DB-DBNAME": "SAT-BF-Sorteo",
+        "CMN-SBF-DB-USER": "sqladmin",
+        "CMN-SBF-DB-PASSWORD": "REPLACE_WITH_YOUR_PASSWORD",
+        "CMN-SBF-DATABRICKS-CONNECTION-URL": "https://adb-8258359398592986.6.azuredatabricks.net/?o=8258359398592986",
+        "CMN-SBF-DATABRICKS-CONNECTION-TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      },
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CMN-SBF-DB-HOST": "postgresqlserveralex.postgres.database.azure.com",
+        "CMN-SBF-DB-PORT": "5432",
+        "CMN-SBF-DBNAME": "SAT-BF-Sorteo",
+        "CMN-SBF-DB-USER": "sqladmin",
+        "CMN-SBF-DB-PASSWORD": "REPLACE_WITH_YOUR_PASSWORD",
+        "CMN-SBF-DATABRICKS-CONNECTION-URL": "https://adb-8258359398592986.6.azuredatabricks.net/?o=8258359398592986",
+        "CMN-SBF-DATABRICKS-CONNECTION-TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      }
+    }
+  }
+}

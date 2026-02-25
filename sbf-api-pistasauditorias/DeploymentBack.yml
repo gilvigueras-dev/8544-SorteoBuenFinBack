@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "sbf-api-pistasauditorias"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "sbf-api-pistasauditorias"
+  securityContext:
+    runAsUser: 1000
+    runAsGroup: 3000
+  template:
+    metadata:
+      labels:
+        app: "sbf-api-pistasauditorias"
+    spec:
+      automountServiceAccountToken: false
+      containers:
+          securityContext:
+            allowPrivilegeEscalation: false
+            seccompProfile:
+              type: "RuntimeDefault"
+          image: "{#CONTAINER-REGISTRY-URL#}/{#projectNameLowerCase#}:{#tag#}"
+          resources:
+            limits:
+                memory: 100Mi
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: sbf-restapi-pistasauditorias-secret  # Corregido: era "sorteobf-api-back-secret"
+      imagePullSecrets:
+        - name: myregistrysorteobfkey

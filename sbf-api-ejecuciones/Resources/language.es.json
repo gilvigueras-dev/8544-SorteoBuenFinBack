@@ -1,0 +1,10 @@
+{
+  "SuccessMessage": "Operación exitosa.",
+  "ApplicationProductsFailure": "No se encontraron productos para la solicitud dada.",
+  "ApplicationProductsStatuFailure": "Error al actualizar el estado del producto.\n",
+  "ApplicationControlNumbersFailure": "No se encontraron registros con los parámetros proporcionados.",
+  "ApplicationDatabricksRunJobAsyncJobIdNull": "El ID del trabajo no puede ser nulo.",
+  "ApplicationDatabricksRunJobAsyncJobNotFound": "No se encontró el trabajo con el ID proporcionado.",
+  "ApplicationDatabricksRunJobAsyncExecutionFailed": "La ejecución del trabajo falló.",
+  "ApplicationPermissionDenied": "Permiso denegado para acceder a las ejecuciones."
+}

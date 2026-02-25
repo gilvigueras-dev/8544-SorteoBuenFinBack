@@ -1,0 +1,15 @@
+﻿C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\Controllers\ParametersController.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\Program.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\obj\Debug\net8.0\sbf-api-parameters.GlobalUsings.g.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\obj\Debug\net8.0\sbf-api-parameters.AssemblyInfo.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\obj\Debug\net8.0\sbf-api-parameters.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\appsettings.Development.json
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\appsettings.json
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\Resources\language.en.json
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\Resources\language.es.json
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\DeploymentBack.yml
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\logs\app-20250714.txt
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\logs\requests-20250714.txt
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\sbf-api-parameters.http
+C:\Users\gil.vigueras\Documents\8544\BACK\sat.sorteobf.api\sbf-api-parameters\Properties\launchSettings.json

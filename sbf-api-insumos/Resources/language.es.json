@@ -1,0 +1,9 @@
+{
+  "SuccessMessage": "Operación exitosa.",
+  "ApplicationProductsFailure": "No se encontraron productos para la solicitud dada.",
+  "ApplicationProductsStatuFailure": "Error al actualizar el estado del producto.\n",
+  "ApplicationControlNumbersFailure": "No se encontraron registros con los parámetros proporcionados.",
+  "ApplicationDatabricksDownloadFileFromDbfsAsyncFailure": "Error al descargar el archivo desde DBFS.",
+  "ApplicationDatabricksDownloadFileFromDbfsAsyncFileContentNull": "El contenido del archivo descargado es nulo.",
+  "ApplicationInsumoPermissionDenied": "No tiene permiso para acceder a los insumos."
+}

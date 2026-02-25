@@ -1,0 +1,10 @@
+{
+    "SuccessMessage":"Operation successful.",
+    "ApplicationProductsFailure":"No products found for the given request.",
+    "ApplicationProductsStatuFailure":"Failed to update product status.\n",
+    "ApplicationControlNumbersFailure":"No records found with the provided parameters.",
+    "ApplicationDatabricksRunJobAsyncJobIdNull":"Job ID cannot be null.",
+    "ApplicationDatabricksRunJobAsyncJobNotFound":"No job found with the provided ID.",
+    "ApplicationDatabricksRunJobAsyncExecutionFailed":"Job execution failed.",
+    "ApplicationPermissionDenied":"Permission denied to access executions."
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:32761",
+      "sslPort": 44343
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5286",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+         "SBF-ENV-DB-HOST": "",
+        "SBF-ENV-DB-PORT": "",
+        "SBF-ENV-DB-DATABASE": "",
+        "SBF-ENV-DB-USER": "",
+        "SBF-ENV-DB-PASSWORD": "",
+        "SBF-ENV-DATABRICKS-HOST": "",
+        "SBF-ENV-DATABRICKS-TOKEN": ""
+      },
+      "dotnetRunMessages": true
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7044;http://localhost:5286",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+         "SBF-ENV-DB-HOST": "",
+        "SBF-ENV-DB-PORT": "",
+        "SBF-ENV-DB-DATABASE": "",
+        "SBF-ENV-DB-USER": "",
+        "SBF-ENV-DB-PASSWORD": "",
+        "SBF-ENV-DATABRICKS-HOST": "",
+        "SBF-ENV-DATABRICKS-TOKEN": ""
+      },
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SBF-ENV-DB-HOST": "postgresqlserveralex.postgres.database.azure.com",
+        "SBF-ENV-DB-PORT": "5432",
+        "SBF-ENV-DB-DATABASE": "SAT-BF-Sorteo",
+        "SBF-ENV-DB-USER": "sqladmin",
+        "SBF-ENV-DB-PASSWORD": "REPLACE_WITH_YOUR_PASSWORD",
+        "SBF-ENV-DATABRICKS-HOST": "adb-8258359398592986.6.azuredatabricks.net",
+        "SBF-ENV-DATABRICKS-TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "SuccessMessage":"Operation successful.",
+    "ApplicationProductsFailure":"No products found for the given request.",
+    "ApplicationProductsStatuFailure":"Failed to update product status.\n",
+    "ApplicationControlNumbersFailure":"No records found with the provided parameters.",
+    "ApplicationParametersRequestNull":"The request object is null.",
+    "ApplicationParametersExecutionIdInvalid":"Execution ID must be greater than zero.",
+    "ApplicationParametersEmpty":"Parameters cannot be null or empty.",
+    "ApplicationParametersSetFailed":"Failed to set parameters.",
+    "ApplicationParametersDbError":"Error accessing the database to set parameters.",
+    "ApplciationParameterSuccessEjecutionId":"Parameters successfully obtained for execution with ID",
+    "ApplicationParametersallActiveParameters":"Active parameters successfully retrieved."
+}
